@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorro Inteligente con Fibonacci y Primos</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="hero">
+        <h1>💰 Sistema de Ahorro Inteligente</h1>
+        <p>
+            Aplicando la Serie de Fibonacci y los Números Primos
+            para mejorar los hábitos de ahorro.
+        </p>
+    </header>
+
+    <main class="contenedor">
+
+        <!-- CONTEXTO -->
+        <section class="card">
+            <h2>📌 Problema del Mundo Real</h2>
+
+            <p>
+                Muchas personas desean ahorrar dinero, pero no saben cuánto ahorrar
+                cada mes o abandonan el hábito rápidamente.
+            </p>
+
+            <p>
+                Este proyecto propone un sistema de ahorro progresivo utilizando
+                la serie de Fibonacci para aumentar el ahorro poco a poco.
+            </p>
+
+            <p>
+                Además, se utilizan los números primos para identificar
+                meses especiales donde el usuario recibe una recomendación
+                de ahorro adicional.
+            </p>
+        </section>
+
+        <!-- TEORIA -->
+        <section class="card">
+            <h2>📚 Explicación del Algoritmo</h2>
+
+            <h3>🔢 Serie de Fibonacci</h3>
+
+            <p>
+                La serie de Fibonacci es una secuencia matemática donde cada número
+                se obtiene sumando los dos anteriores.
+            </p>
+
+            <div class="formula">
+                1, 1, 2, 3, 5, 8, 13...
+            </div>
+
+            <p>
+                En este proyecto, cada número representa la cantidad de dinero
+                que se ahorra en cada mes.
+            </p>
+
+            <h3>🟢 Números Primos</h3>
+
+            <p>
+                Un número primo es aquel que solo puede dividirse exactamente
+                entre 1 y sí mismo.
+            </p>
+
+            <p>
+                Los meses primos serán considerados meses especiales de ahorro.
+            </p>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section class="card">
+            <h2>🧮 Simulador de Ahorro</h2>
+
+            <form id="formulario">
+
+                <div class="grupo-input">
+                    <label for="meses">Cantidad de meses:</label>
+
+                    <input
+                        type="number"
+                        id="meses"
+                        min="1"
+                        placeholder="Ejemplo: 10"
+                        required
+                    >
+                </div>
+
+                <button type="submit">
+                    Calcular ahorro
+                </button>
+
+            </form>
+        </section>
+
+        <!-- RESULTADOS -->
+        <section class="card">
+            <h2>📊 Resultados</h2>
+
+            <div id="resultado">
+
+                <p class="mensaje">
+                    Aquí aparecerán los resultados...
+                </p>
+
+            </div>
+        </section>
+
+        <!-- CONCLUSION -->
+        <section class="card">
+            <h2>✅ Conclusión</h2>
+
+            <p>
+                La matemática puede ayudar a resolver problemas reales de la vida diaria.
+            </p>
+
+            <p>
+                Gracias a Fibonacci y los números primos, es posible crear
+                estrategias de ahorro progresivo fáciles de seguir y entender.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Proyecto desarrollado con HTML, CSS y JavaScript
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
